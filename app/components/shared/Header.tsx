@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Header() {
     return (
-        <header className="flex justify-center items-center w-full py-5 border-b border-gray-200">
+        <header className="sticky top-0 flex justify-center items-center w-full bg-white py-5 border-b border-gray-200">
             <div className="flex justify-between items-center w-2/3">
                 <div className="flex items-center gap-3">
                     <h1 className="text-white text-sm font-poppins font-semibold bg-linear-to-r from-(--color-green) to-(--color-blue) rounded-lg py-2 px-3">ES</h1>
