@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${poppins.variable} ${roboto.variable}`}>
-      <body className="flex justify-center w-full">
+      <body>
         {children}
       </body>
     </html>

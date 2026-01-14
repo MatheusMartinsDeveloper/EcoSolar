@@ -5,7 +5,10 @@
   --foreground: #171717;
   --background-gray: #F3F8FF;
   --color-green: #169F51;
+  --color-green-text: #166534;
+  --color-green-background: #DCFCE7;
   --color-blue: #1D52D1;
+  --color-dark-blue: #111827;
 }
 
 @layer utilities {
