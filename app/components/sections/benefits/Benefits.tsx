@@ -1,9 +1,10 @@
 import Heading from "../../shared/Heading"
 import Card from "./Card"
+import CardTechnology from "./Card_Technology"
 
 export default function Benefits() {
     return (
-        <section className="flex flex-col justify-center items-center gap-14 w-full h-screen">
+        <section className="flex flex-col justify-center items-center gap-14 w-full">
             <div className="flex justify-center">
                 <Heading
                     title="Por que escolher a EcoSolar?"
@@ -41,6 +42,9 @@ export default function Benefits() {
                     title="Financiamento Facilitado"
                     description="Parcelamento em até 120x e linhas de crédito especiais para energia solar com taxas reduzidas."
                 />
+            </div>
+            <div className="flex justify-center w-4/6">
+                <CardTechnology />
             </div>
         </section>
     )

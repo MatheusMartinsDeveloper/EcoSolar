@@ -11,7 +11,7 @@ export default function Card({ icon, title, description }: CardBenefitsType) {
                     <h1 className="text-(--color-dark-blue) text-xl font-poppins">{title}</h1>
                 </div>
                 <div>
-                    <p className="text-gray-500 text-base font-roboto">{description}</p>
+                    <p className="text-gray-600 text-base font-roboto font-light">{description}</p>
                 </div>
             </div>
         </div>
