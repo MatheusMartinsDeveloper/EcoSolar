@@ -17,7 +17,7 @@ export default function CardTechnology() {
                         </ul>
                     </div>
                 </div>
-                <div className="relative w-1/3 h-96">
+                <div className="relative w-2/5 h-96">
                     <Image
                         src={"/eco_solar_technology.png"}
                         alt="Image Technology"
