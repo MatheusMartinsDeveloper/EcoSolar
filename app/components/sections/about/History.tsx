@@ -48,29 +48,29 @@ export default function History() {
             <div className="grid grid-cols-2 gap-4 w-2/5">
                 <div className="relative col-span-2 h-auto">
                     <Image
-                    src="/eco_solar_technology.png"
-                    alt="Imagem principal"
-                    fill
-                    className="object-cover rounded-xl"
-                    priority
+                        src="/eco_solar_technology.png"
+                        alt="Imagem principal"
+                        fill
+                        className="object-cover rounded-xl"
+                        priority
                     />
                 </div>
 
                 <div className="relative h-auto">
                     <Image
-                    src="/eco_solar_technology_2.png"
-                    alt="Imagem secundária 1"
-                    fill
-                    className="object-cover rounded-xl"
+                        src="/eco_solar_technology_2.png"
+                        alt="Imagem secundária 1"
+                        fill
+                        className="object-cover rounded-xl"
                     />
                 </div>
 
                 <div className="relative h-auto">
                     <Image
-                    src={"/eco_solar_technology_3.png"}
-                    alt="Imagem secundária 2"
-                    fill
-                    className="object-cover rounded-xl"
+                        src={"/eco_solar_technology_3.png"}
+                        alt="Imagem secundária 2"
+                        fill
+                        className="object-cover rounded-xl"
                     />
                 </div>
             </div>
